@@ -1,0 +1,118 @@
+/* Full Page Layout */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.login-page {
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Sidebar Styling */
+  .login-sidebar {
+    flex: 1;
+    background-image: url("../../images/background.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  
+  /* Main Login Form Section */
+  .login-main {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+  
+  /* Login Card Styling */
+  .login-card {
+    background: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Back Button */
+  .back-button {
+    background: none;
+    border: none;
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+  }
+  
+  /* Form Inputs */
+  .login-input {
+    display: block;
+    width: 100%;
+    margin: 10px 0 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Login Button */
+  .login-button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .login-button:hover {
+    background-color: #333;
+  }
+  
+  /* Google Login Button */
+  .google-login-button {
+    background: none;
+    border: 2px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .google-login-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Signup Link */
+  .signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error or Success Message */
+  .login-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: red;
+  }
+  .login-input::placeholder {
+    color: grey; /* Set the placeholder text color */
+    font-style: italic; /* Optional for emphasis */
+  }

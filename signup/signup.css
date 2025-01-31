@@ -1,0 +1,104 @@
+/* General container styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.signup-container {
+    display: flex;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .signup-left {
+    flex: 1;
+    background-image: url("../../images/background.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-left h1 {
+    font-size: 2rem;
+  }
+  
+  .signup-right {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+  }
+  
+  .signup-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Center align everything */
+  }
+  
+  .signup-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .google-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .google-login img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .signup-message {
+    margin-top: 20px;
+    color: red;
+    font-size: 0.9rem;
+  }
+  

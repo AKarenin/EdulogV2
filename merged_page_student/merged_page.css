@@ -1,0 +1,21 @@
+/* MergedPage.css */
+
+.merged-page-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Full height layout */
+  }
+  
+  .left-section {
+    width: 25%; /* Sidebar takes up 25% of the width */
+    border-right: 1px solid #ccc;
+    overflow-y: auto; /* Allow scrolling if content overflows */
+  }
+  
+  .right-section {
+    flex-grow: 1; /* Take up the remaining space */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    display: flex;
+    flex-direction: column; /* Ensure messages and input are stacked */
+  }
+  

@@ -1,0 +1,78 @@
+/* Container to hold both sections */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Left section styling */
+  .left-section {
+    background-image: url("../../images/background.jpg");
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-section .company-name {
+    color: white;
+    font-size: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Right section styling */
+  .right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+  
+  .right-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .right-section button-container{
+    display: flex;
+    height: min-content;
+    flex: 0.4;
+  }
+  
+  .right-section .buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; /* Ensures wrapping if space is limited */
+  }
+  
+  .right-section .buttons button {
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px; /* Reduce padding for smaller buttons */
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 1;
+    width: auto;
+  }
+  
+  .right-section .buttons .login {
+    background: #f5f5f5;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .right-section .buttons .signup {
+    background: #000;
+    color: #fff;
+  }
+  
